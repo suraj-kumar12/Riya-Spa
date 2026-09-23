@@ -1,0 +1,8 @@
+{
+  "name": "Lotus Spa",
+  "description": "Lotus Spa - Premium wellness, massage, and relaxation spa in Viman Nagar, Pune, Maharashtra.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

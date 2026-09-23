@@ -1,16 +1,25 @@
-# React + Vite
+# Lotus Spa — Viman Nagar, Pune
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimal, and sophisticated website for **Lotus Spa**, located in Viman Nagar, Pune, Maharashtra.
 
-Currently, two official plugins are available:
+## Business Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Business Name:** Lotus Spa
+- **Mobile Number:** +91 80926 31411 (8092631411)
+- **Address:** No. 1, Lunkad Classic, Row House, near Kailash Super Market, Viman Nagar, Pune, Maharashtra – 411014
+- **Aesthetic:** Minimalist, luxury wellness, restrained palette (white, off-white, warm beige, charcoal, soft grey).
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Navigation:** Clean typography, smooth scrolling, and mobile drawer.
+- **Hero Sanctuary:** Elegant introduction to therapies with direct booking actions.
+- **About Lotus Spa:** Factual overview of tranquil environment, hygiene, and personalized comfort.
+- **Curated Services:** Swedish Massage, Deep Tissue, Aromatherapy, Balinese, Hot Stone, Couple Spa, Body Scrub, and Relaxation Therapy with detail modals.
+- **Why Choose Lotus Spa:** 6 core wellness pillars.
+- **Spa Packages:** Multi-treatment rituals with clear, configurable placeholders.
+- **Visual Sanctuary Gallery:** Categorized gallery with interactive lightbox.
+- **Transparent Reflections:** Authentic customer review placeholder structure.
+- **FAQ:** Comprehensive guest questions with accordion interaction.
+- **Contact & Location:** Full Pune address, embedded interactive map, directions link, and appointment inquiry form.
+- **SEO & Structured Data:** DaySpa / LocalBusiness JSON-LD schema, OpenGraph tags, and meta definitions.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
