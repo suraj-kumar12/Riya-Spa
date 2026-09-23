@@ -1,5 +1,5 @@
 // Reusable Services Data for Lotus Spa
-// Prices and durations are structured with placeholders so real values can easily be configured
+// Formatted with distinct high-resolution luxury spa photography
 
 export const SERVICES = [
   {
@@ -7,9 +7,9 @@ export const SERVICES = [
     name: "Swedish Massage",
     tagline: "Classic restorative technique for whole-body circulation",
     description: "A gentle yet invigorating full-body treatment utilizing long, flowing strokes, rhythmic kneading, and light friction to relieve muscle tension, enhance blood circulation, and instill deep physical tranquility.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Gentle to moderate pressure",
       "Stimulates natural lymphatic flow",
@@ -23,9 +23,9 @@ export const SERVICES = [
     name: "Deep Tissue Massage",
     tagline: "Focused muscle work targeting deep-seated tension",
     description: "Designed to release chronic muscle tightness and postural strain. Our skilled therapists apply deliberate, sustained friction and firm pressure along deeper layers of muscle tissue and fascia.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Firm, therapeutic deep-layer pressure",
       "Releases structural back and shoulder knots",
@@ -36,12 +36,12 @@ export const SERVICES = [
   },
   {
     id: "aromatherapy",
-    name: "Aromatherapy",
+    name: "Aromatherapy Massage",
     tagline: "Sensory botanical oils for emotional equilibrium",
     description: "A harmonious therapeutic massage combining customized essential botanical extracts with rhythmic, soothing touch. Selected plant essences work in synergy to calm sensory stress and awaken inner equilibrium.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Pure organic botanical essential oils",
       "Delicate, rhythmic sensory strokes",
@@ -55,9 +55,9 @@ export const SERVICES = [
     name: "Balinese Massage",
     tagline: "Traditional Indonesian acupressure and gentle stretching",
     description: "Rooted in timeless Indonesian wellness traditions, this therapy blends gentle acupressure, muscle rolling, palm pressing, and mild passive stretching to awaken vitality and release deep musculoskeletal blockage.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Acupressure & rhythmic palm movements",
       "Gentle meridian energy balance",
@@ -68,12 +68,12 @@ export const SERVICES = [
   },
   {
     id: "hot-stone-massage",
-    name: "Hot Stone Massage",
+    name: "Hot Stone Therapy",
     tagline: "Warm volcanic basalt stones delivering penetrating heat",
     description: "Polished natural basalt river stones are gently warmed and placed along key energy centers of the body. The therapist glides smooth stones with soothing strokes to melt away tight muscle fibers effortlessly.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Natural heated basalt stones",
       "Deep penetrating thermodynamic relief",
@@ -84,12 +84,12 @@ export const SERVICES = [
   },
   {
     id: "couple-spa",
-    name: "Couple Spa",
+    name: "Couples Spa Ritual",
     tagline: "A shared sanctuary of mutual peace and pampering",
     description: "Share a peaceful retreat side-by-side in our private dual therapy room. Both guests enjoy individually personalized massage treatments in an atmosphere of soft ambient candlelight and aromatic calm.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80",
+    duration: "90 / 120 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Private couples treatment suite",
       "Individually customized pressure & oils",
@@ -100,12 +100,12 @@ export const SERVICES = [
   },
   {
     id: "body-scrub",
-    name: "Body Scrub",
+    name: "Organic Botanical Body Scrub",
     tagline: "Gentle natural exfoliation and skin polish",
     description: "An enriching full-body skin treatment utilizing finely milled botanical exfoliants to sweep away dead skin cells, refine texture, and nourish dull skin, followed by a deeply hydrating organic body balm.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1512290900672-1f02a64c483a?auto=format&fit=crop&w=1000&q=80",
+    duration: "45 / 60 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1512290900672-1f02a64c483a?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Botanical mineral-rich exfoliating blend",
       "Softens skin texture and enhances glow",
@@ -116,12 +116,12 @@ export const SERVICES = [
   },
   {
     id: "relaxation-therapy",
-    name: "Relaxation Therapy",
+    name: "Pure Serenity Relaxation Ritual",
     tagline: "Pure tranquility dedicated to slowing down the mind",
     description: "A restorative head-to-toe therapy designed specifically for sensory de-escalation. Slow, featherlight rhythmic strokes across the scalp, back, and extremities quiet a racing mind and reset personal wellbeing.",
-    duration: "Duration upon request",
-    price: "Pricing upon request",
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1000&q=80",
+    duration: "60 / 90 mins",
+    price: "Inquire for pricing",
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=85",
     features: [
       "Ultra-gentle cadence and light pressure",
       "Dedicated scalp and temple relaxation",

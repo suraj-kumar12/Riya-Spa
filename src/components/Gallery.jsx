@@ -21,19 +21,19 @@ export default function Gallery() {
   };
 
   return (
-    <section id="gallery" className="py-20 md:py-28 bg-[#faf9f6]">
+    <section id="gallery" className="py-20 md:py-28 bg-[#FAF8F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-12">
-          <p className="text-[11px] tracking-[0.25em] uppercase text-[#78716c] font-medium">
+        <div className="max-w-3xl mx-auto text-center space-y-3.5 mb-12">
+          <p className="text-[11px] tracking-[0.25em] uppercase text-[#8C7A6B] font-semibold">
             Visual Sanctuary
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#1c1917] tracking-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
             Lotus Spa Gallery
           </h2>
-          <div className="w-12 h-px bg-[#78716c] mx-auto mt-4" />
-          <p className="text-base text-[#57534e] font-light leading-relaxed pt-2">
+          <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
+          <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
             A glimpse into the quiet spaces, mindful rituals, and serene atmosphere at Lotus Spa in Viman Nagar, Pune.
           </p>
         </div>
@@ -46,10 +46,10 @@ export default function Gallery() {
               role="tab"
               aria-selected={activeCategory === cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`px-4 py-2 text-xs tracking-[0.14em] uppercase transition-all border cursor-pointer ${
+              className={`px-5 py-2.5 text-xs tracking-[0.16em] uppercase font-medium transition-all border rounded-full cursor-pointer ${
                 activeCategory === cat.id
-                  ? 'bg-[#1c1917] text-[#faf9f6] border-[#1c1917]'
-                  : 'bg-transparent text-[#78716c] border-[#e7e5e4] hover:border-[#a8a29e] hover:text-[#1c1917]'
+                  ? 'bg-[#C5A059] text-white border-[#C5A059] shadow-xs'
+                  : 'bg-white text-[#6E675F] border-[#E8E2D9] hover:border-[#C5A059] hover:text-[#2C2724]'
               }`}
             >
               {cat.label}
@@ -63,7 +63,7 @@ export default function Gallery() {
             <div
               key={item.id}
               onClick={() => setLightboxItem(item)}
-              className="group relative aspect-[4/5] bg-[#e7e5e4] border border-[#e7e5e4] overflow-hidden cursor-pointer"
+              className="group relative aspect-[4/5] bg-[#F4F0EA] border border-[#E8E2D9] overflow-hidden cursor-pointer rounded-sm shadow-2xs hover:shadow-md transition-all duration-300"
             >
               <img
                 src={item.image}
@@ -74,16 +74,16 @@ export default function Gallery() {
               />
               
               {/* Overlay on hover */}
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-5 text-white">
+              <div className="absolute inset-0 bg-black/35 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-5 text-white">
                 <div className="flex justify-end">
-                  <span className="p-1.5 bg-black/40 border border-white/20">
+                  <span className="p-2 bg-white/20 backdrop-blur-xs rounded-full border border-white/30">
                     <Maximize2 className="w-4 h-4 text-white" />
                   </span>
                 </div>
                 <div>
-                  <p className="font-serif text-base sm:text-lg">{item.title}</p>
-                  <p className="text-[10px] tracking-widest uppercase text-[#d6d3d1] mt-0.5">
-                    View Image
+                  <p className="font-serif text-lg font-normal">{item.title}</p>
+                  <p className="text-[10px] tracking-widest uppercase text-[#FAF8F5] mt-1 opacity-90">
+                    Click to enlarge
                   </p>
                 </div>
               </div>

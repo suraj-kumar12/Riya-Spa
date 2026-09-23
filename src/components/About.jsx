@@ -5,93 +5,94 @@ export default function About() {
   const pillars = [
     {
       icon: Feather,
-      title: 'Peaceful Environment',
-      description: 'An intentionally quiet atmosphere designed to insulate you from daily noise and rush.'
+      title: 'Tranquil Sanctuary',
+      description: 'An intentionally quiet atmosphere designed to insulate you from urban stress and noise.'
     },
     {
       icon: HeartHandshake,
-      title: 'Personalized Treatments',
-      description: 'Consultative sessions where therapist techniques and pressures are adapted to your comfort.'
+      title: 'Bespoke Therapies',
+      description: 'Consultative care where techniques and organic botanicals are tailored to your physical comfort.'
     },
     {
       icon: ShieldCheck,
-      title: 'Hygienic Space',
-      description: 'Immaculately maintained treatment rooms with clean linens and fresh botanical oils for each guest.'
+      title: 'Pure Hygiene Standards',
+      description: 'Immaculately maintained private suites with fresh organic linens and sterilized equipment for every guest.'
     },
     {
       icon: Sparkles,
-      title: 'Dedicated Wellness',
-      description: 'Traditional and contemporary therapies dedicated to physical recovery and inner calm.'
+      title: 'Holistic Wellbeing',
+      description: 'Traditional Asian and Western therapies dedicated to releasing deep tension and resetting your energy.'
     }
   ];
 
   return (
-    <section id="about" className="py-20 md:py-28 bg-[#f5f2eb]/40 border-t border-b border-[#e7e5e4]">
+    <section id="about" className="py-20 md:py-28 bg-[#FAF8F5] border-t border-b border-[#E8E2D9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-16">
-          <p className="text-[11px] tracking-[0.25em] uppercase text-[#78716c] font-medium">
-            About Lotus Spa
+        <div className="max-w-3xl mx-auto text-center space-y-3.5 mb-16">
+          <p className="text-[11px] tracking-[0.25em] uppercase text-[#8C7A6B] font-semibold">
+            Discover Lotus Spa
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#1c1917] tracking-tight">
-            A Haven of Calm in Viman Nagar
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
+            A Sanctuary of Quiet in Viman Nagar
           </h2>
-          <div className="w-12 h-px bg-[#78716c] mx-auto mt-4" />
-          <p className="text-base text-[#57534e] font-light leading-relaxed pt-2">
-            Located in Pune&apos;s vibrant Viman Nagar neighborhood, Lotus Spa provides a serene space dedicated to relaxation, physical recovery, and restorative wellness therapies.
+          <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
+          <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
+            Located at Lunkad Classic, Viman Nagar, Pune, Lotus Spa provides a sanctuary devoted to total physical renewal, mental stillness, and tailored massotherapy.
           </p>
         </div>
 
-        {/* Narrative & Image Grid */}
+        {/* Story & Image Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
           
-          <div className="lg:col-span-6 space-y-6 text-[#44403c] font-light leading-relaxed">
-            <h3 className="font-serif text-2xl text-[#1c1917] font-normal">
-              Mindful Care for Your Physical Wellbeing
+          <div className="lg:col-span-6 space-y-6 text-[#6E675F] font-light leading-relaxed">
+            <h3 className="font-serif text-2xl text-[#2C2724] font-normal leading-snug">
+              Mindful Care for Your Physical & Mental Well-being
             </h3>
             <p>
-              At Lotus Spa, our focus is centered on pure relaxation and personal comfort. We believe that true rejuvenation begins in a peaceful, unhurried setting where every detail supports mental ease.
+              At Lotus Spa, every treatment is rooted in the belief that authentic rejuvenation begins in an unhurried, serene setting where your comfort is paramount.
             </p>
             <p>
-              Whether you are looking to ease persistent muscle tension after long workdays, enjoy a soothing couple therapy, or simply take time for quiet reflection, our treatment sessions are tailored thoughtfully to your preferences.
+              Whether you are looking to release stubborn shoulder knots from long desk hours, experience a shared couple wellness session, or indulge in botanical hydrotherapy, our certified therapists ensure every touch is attentive and restorative.
             </p>
             
-            <div className="p-5 border-l-2 border-[#1c1917] bg-[#faf9f6] text-sm italic font-serif text-[#292524]">
-              &ldquo;Experience a calm, rejuvenating spa experience at Lotus Spa in Viman Nagar, Pune.&rdquo;
+            <div className="p-6 border-l-3 border-[#C5A059] bg-white text-base italic font-serif text-[#2C2724] shadow-2xs rounded-r-sm">
+              &ldquo;Relax, Rejuvenate, Renew — Experience total tranquility at Lotus Spa in Viman Nagar, Pune.&rdquo;
             </div>
 
-            <p className="text-sm text-[#78716c]">
+            <p className="text-xs text-[#8C7A6B]">
               Conveniently located at {BUSINESS_INFO.address.full}.
             </p>
           </div>
 
+          {/* Serene Photography Grid */}
           <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-            <div className="space-y-4">
-              <div className="overflow-hidden border border-[#d6d3d1] bg-[#e7e5e4] aspect-[3/4]">
+            <div className="space-y-3">
+              <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80"
-                  alt="Lotus Spa treatment room atmosphere in Viman Nagar"
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition duration-500"
+                  src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=85"
+                  alt="Lotus Spa serene treatment room in Viman Nagar"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"
                 />
               </div>
-              <p className="text-[11px] tracking-wider uppercase text-[#78716c] text-center">
-                Serene Suite
+              <p className="text-[11px] tracking-widest uppercase text-[#8C7A6B] text-center font-medium">
+                Private Therapy Suite
               </p>
             </div>
 
-            <div className="space-y-4 pt-8 sm:pt-12">
-              <div className="overflow-hidden border border-[#d6d3d1] bg-[#e7e5e4] aspect-[3/4]">
+            <div className="space-y-3 pt-6 sm:pt-10">
+              <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=700&q=80"
-                  alt="Lotus Spa botanical oils and soothing essences"
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition duration-500"
+                  src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=85"
+                  alt="Lotus Spa essential oils and botanical blends"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"
                 />
               </div>
-              <p className="text-[11px] tracking-wider uppercase text-[#78716c] text-center">
-                Natural Essentials
+              <p className="text-[11px] tracking-widest uppercase text-[#8C7A6B] text-center font-medium">
+                Organic Essential Oils
               </p>
             </div>
           </div>
@@ -99,21 +100,21 @@ export default function About() {
         </div>
 
         {/* 4 Pillars Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-8 border-t border-[#e7e5e4]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-10 border-t border-[#E8E2D9]">
           {pillars.map((pillar, idx) => {
             const Icon = pillar.icon;
             return (
               <div
                 key={idx}
-                className="p-6 bg-[#faf9f6] border border-[#e7e5e4] hover:border-[#a8a29e] transition-colors"
+                className="p-6 bg-white border border-[#E8E2D9] hover:border-[#C5A059] transition-all duration-300 shadow-2xs hover:shadow-md rounded-sm group"
               >
-                <div className="w-10 h-10 border border-[#d6d3d1] flex items-center justify-center text-[#1c1917] mb-4 bg-[#f5f2eb]/60">
-                  <Icon className="w-5 h-5 stroke-[1.5]" />
+                <div className="w-11 h-11 border border-[#E8E2D9] flex items-center justify-center text-[#C5A059] mb-4 bg-[#FAF8F5] group-hover:bg-[#C5A059] group-hover:text-white transition-colors duration-300 rounded-sm">
+                  <Icon className="w-5 h-5 stroke-[1.75]" />
                 </div>
-                <h4 className="font-serif text-lg font-medium text-[#1c1917] mb-2">
+                <h4 className="font-serif text-xl font-normal text-[#2C2724] mb-2">
                   {pillar.title}
                 </h4>
-                <p className="text-xs text-[#57534e] font-light leading-relaxed">
+                <p className="text-xs text-[#6E675F] font-light leading-relaxed">
                   {pillar.description}
                 </p>
               </div>

@@ -1,83 +1,72 @@
 import { useState } from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import WhyChooseUs from './components/WhyChooseUs';
-import Packages from './components/Packages';
-import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
-import LegalModal from './components/LegalModal';
-import { useScrollSpy } from './hooks/useScrollSpy';
+import ScrollToTop from './components/ScrollToTop';
+
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import PackagesPage from './pages/PackagesPage';
+import GalleryPage from './pages/GalleryPage';
+import FAQPage from './pages/FAQPage';
+import ContactPage from './pages/ContactPage';
+import BookingPage from './pages/BookingPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 export default function App() {
-  const sectionIds = ['home', 'about', 'services', 'packages', 'gallery', 'faq', 'contact'];
-  const activeSection = useScrollSpy(sectionIds, 120);
-
   const [bookingModalOpen, setBookingModalOpen] = useState(false);
   const [selectedBookingItem, setSelectedBookingItem] = useState(null);
-
-  const [legalModalOpen, setLegalModalOpen] = useState(false);
-  const [legalType, setLegalType] = useState('privacy');
 
   const handleOpenBooking = (initialItem = null) => {
     setSelectedBookingItem(initialItem);
     setBookingModalOpen(true);
   };
 
-  const handleOpenLegal = (type = 'privacy') => {
-    setLegalType(type);
-    setLegalModalOpen(true);
-  };
-
   return (
-    <div className="min-h-screen bg-[#faf9f6] text-[#1c1917] flex flex-col font-sans selection:bg-[#292524] selection:text-[#faf9f6] overflow-x-hidden">
+    <div className="min-h-screen bg-[#FAF8F5] text-[#2C2724] flex flex-col font-sans selection:bg-[#C5A059] selection:text-white overflow-x-hidden">
+      {/* Scroll to Top helper on route navigation */}
+      <ScrollToTop />
+
       {/* Sticky Luxury Navbar */}
-      <Navbar
-        onOpenBooking={() => handleOpenBooking()}
-        activeSection={activeSection}
-      />
+      <Navbar onOpenBooking={() => handleOpenBooking()} />
 
-      <main className="flex-grow">
-        {/* 1. Hero Section */}
-        <Hero onOpenBooking={() => handleOpenBooking()} />
+      {/* Page Routing */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <HomePage
+              onOpenBooking={handleOpenBooking}
+              onSelectServiceForBooking={(service) => handleOpenBooking(service)}
+            />
+          }
+        />
+        <Route path="/about" element={<AboutPage onOpenBooking={handleOpenBooking} />} />
+        <Route
+          path="/services"
+          element={
+            <ServicesPage
+              onSelectServiceForBooking={(service) => handleOpenBooking(service)}
+            />
+          }
+        />
+        <Route path="/packages" element={<PackagesPage onOpenBooking={handleOpenBooking} />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/faq" element={<FAQPage />} />
+        <Route path="/contact" element={<ContactPage onOpenBooking={handleOpenBooking} />} />
+        <Route path="/booking" element={<BookingPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
 
-        {/* 2. About Section */}
-        <About />
+      {/* Footer */}
+      <Footer onOpenBooking={() => handleOpenBooking()} />
 
-        {/* 3. Services Section */}
-        <Services onSelectServiceForBooking={(service) => handleOpenBooking(service)} />
-
-        {/* 4. Why Choose Us Section */}
-        <WhyChooseUs />
-
-        {/* 5. Packages Section */}
-        <Packages onOpenBooking={(pkgTitle) => handleOpenBooking(pkgTitle)} />
-
-        {/* 6. Gallery Section */}
-        <Gallery />
-
-        {/* 7. Testimonials Section (Placeholder structure) */}
-        <Testimonials />
-
-        {/* 8. FAQ Section */}
-        <FAQ />
-
-        {/* 9. Contact Section */}
-        <Contact onOpenBooking={() => handleOpenBooking()} />
-      </main>
-
-      {/* 10. Footer */}
-      <Footer
-        onOpenBooking={() => handleOpenBooking()}
-        onOpenLegal={handleOpenLegal}
-      />
-
-      {/* Booking Appointment Modal */}
+      {/* Global Booking Appointment Modal */}
       <BookingModal
         isOpen={bookingModalOpen}
         onClose={() => {
@@ -85,13 +74,6 @@ export default function App() {
           setSelectedBookingItem(null);
         }}
         initialService={selectedBookingItem}
-      />
-
-      {/* Privacy Policy & Terms Modal */}
-      <LegalModal
-        isOpen={legalModalOpen}
-        type={legalType}
-        onClose={() => setLegalModalOpen(false)}
       />
     </div>
   );

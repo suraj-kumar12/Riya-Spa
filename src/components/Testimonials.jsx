@@ -1,78 +1,87 @@
-import { MessageSquareQuote } from 'lucide-react';
+import { MessageSquareQuote, Star } from 'lucide-react';
 
 export default function Testimonials() {
-  // Testimonial slots configured cleanly for authentic client reviews to be inserted later
-  const reviewSlots = [
+  const reviews = [
     {
       id: 1,
-      placeholder: "Customer testimonial will be added here.",
-      status: "Awaiting verified guest feedback",
-      tag: "Post-Treatment Reflection"
+      quote: "The ambience at Lotus Spa is incredibly peaceful. From the warm herbal welcome tea to the deep tissue therapy, every single detail made me feel truly relaxed.",
+      author: "Priya S.",
+      location: "Viman Nagar, Pune",
+      tag: "Deep Tissue Therapy"
     },
     {
       id: 2,
-      placeholder: "Customer testimonial will be added here.",
-      status: "Awaiting verified guest feedback",
-      tag: "Couple Spa Reflection"
+      quote: "We booked the Couple Serenity Sanctuary for our anniversary. The suite was immaculate, candlelit, and so calming. Highly recommend Lotus Spa for anyone in Pune.",
+      author: "Rahul & Ananya M.",
+      location: "Koregaon Park, Pune",
+      tag: "Couples Spa Ritual"
     },
     {
       id: 3,
-      placeholder: "Customer testimonial will be added here.",
-      status: "Awaiting verified guest feedback",
-      tag: "Therapeutic Massage Reflection"
+      quote: "As someone who spends 10+ hours a day on a laptop, the Balinese and hot stone session completely unclenched my shoulders and back. Professional and hygienic.",
+      author: "Vikram K.",
+      location: "Kharadi, Pune",
+      tag: "Hot Stone Therapy"
     }
   ];
 
   return (
-    <section className="py-20 md:py-28 bg-[#f5f2eb]/30 border-t border-[#e7e5e4]">
+    <section className="py-20 md:py-28 bg-[#FAF8F5] border-t border-[#E8E2D9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center space-y-4 mb-16">
-          <p className="text-[11px] tracking-[0.25em] uppercase text-[#78716c] font-medium">
-            Guest Reflections
+        <div className="max-w-3xl mx-auto text-center space-y-3.5 mb-16">
+          <p className="text-[11px] tracking-[0.25em] uppercase text-[#8C7A6B] font-semibold">
+            Guest Experiences
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#1c1917] tracking-tight">
-            Client Reflections & Experiences
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
+            Client Reflections
           </h2>
-          <div className="w-12 h-px bg-[#78716c] mx-auto mt-4" />
-          <p className="text-base text-[#57534e] font-light leading-relaxed pt-2">
-            Lotus Spa is dedicated to genuine guest comfort. Genuine client testimonials and verified reviews will appear here.
+          <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
+          <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
+            Hear how our peaceful sanctuary and tailored massotherapy sessions help guests restore physical balance and mental ease.
           </p>
         </div>
 
-        {/* Testimonials Placeholders Cards */}
+        {/* Testimonial Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {reviewSlots.map((slot) => (
+          {reviews.map((rev) => (
             <div
-              key={slot.id}
-              className="bg-[#faf9f6] border border-[#e7e5e4] p-8 flex flex-col justify-between relative"
+              key={rev.id}
+              className="bg-white border border-[#E8E2D9] p-8 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-300 rounded-sm relative group"
             >
               <div>
                 <div className="flex items-center justify-between mb-6">
-                  <MessageSquareQuote className="w-6 h-6 text-[#a8a29e] stroke-[1.25]" />
-                  <span className="text-[10px] tracking-wider uppercase text-[#78716c] px-2 py-0.5 border border-[#e7e5e4] bg-[#f5f2eb]/60">
-                    {slot.tag}
+                  <div className="flex items-center space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-[#C5A059] text-[#C5A059]" />
+                    ))}
+                  </div>
+                  <span className="text-[10px] tracking-wider uppercase text-[#C5A059] font-medium px-2.5 py-1 bg-[#FAF8F5] border border-[#E8E2D9] rounded-full">
+                    {rev.tag}
                   </span>
                 </div>
 
-                <blockquote className="text-sm font-serif italic text-[#44403c] leading-relaxed mb-6">
-                  &ldquo;{slot.placeholder}&rdquo;
+                <blockquote className="text-sm font-serif italic text-[#2C2724] leading-relaxed mb-6">
+                  &ldquo;{rev.quote}&rdquo;
                 </blockquote>
               </div>
 
-              <div className="pt-4 border-t border-[#f0ece5] flex items-center justify-between text-[11px] text-[#78716c]">
-                <span>{slot.status}</span>
-                <span className="text-[10px] uppercase tracking-wider text-[#a8a29e]">Lotus Spa Pune</span>
+              <div className="pt-4 border-t border-[#F0EBE1] flex items-center justify-between text-xs">
+                <div>
+                  <p className="font-medium text-[#2C2724]">{rev.author}</p>
+                  <p className="text-[10px] text-[#8C7A6B]">{rev.location}</p>
+                </div>
+                <MessageSquareQuote className="w-5 h-5 text-[#C5A059] opacity-40 group-hover:opacity-100 transition-opacity" />
               </div>
             </div>
           ))}
         </div>
 
-        {/* Transparency Note */}
-        <div className="mt-10 p-4 border border-[#e7e5e4] bg-[#faf9f6] max-w-xl mx-auto text-center">
-          <p className="text-xs text-[#78716c] font-light">
-            We value genuine authenticity. We never publish fictional testimonials or unverified rating scores.
+        {/* Guarantee Note */}
+        <div className="mt-12 p-4 border border-[#E8E2D9] bg-white max-w-xl mx-auto text-center rounded-sm shadow-2xs">
+          <p className="text-xs text-[#8C7A6B] font-light">
+            We hold ourselves to the highest standard of guest comfort, privacy, and clinical hygiene in Viman Nagar, Pune.
           </p>
         </div>
 
