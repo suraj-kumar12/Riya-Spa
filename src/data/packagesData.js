@@ -1,5 +1,4 @@
-// Reusable Packages Data for Lotus Spa
-// Formatted with high quality luxury spa images
+import { PACKAGE_IMAGES } from './images';
 
 export const PACKAGES = [
   {
@@ -7,7 +6,7 @@ export const PACKAGES = [
     title: "Signature Rejuvenation Ritual",
     badge: "Most Requested",
     description: "A comprehensive holistic session pairing full-body exfoliation with warm aromatherapy massage and dedicated scalp tension release.",
-    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85",
+    image: PACKAGE_IMAGES.signature,
     includes: [
       "Botanical Body Scrub",
       "Full Body Aromatherapy Massage",
@@ -23,7 +22,7 @@ export const PACKAGES = [
     title: "Couple Serenity Sanctuary",
     badge: "Shared Experience",
     description: "An exclusive shared wellness journey in our dual private suite, curated for couples seeking uninterrupted quiet and shared relaxation.",
-    image: "https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=1200&q=85",
+    image: PACKAGE_IMAGES.couple,
     includes: [
       "Dual Balinese or Swedish Massage",
       "Private Calming Suite Atmosphere",
@@ -39,7 +38,7 @@ export const PACKAGES = [
     title: "Deep Muscle Recovery Suite",
     badge: "Therapeutic Focus",
     description: "Targeted musculoskeletal therapy pairing intensive deep tissue manual therapy with restorative warm basalt stones for chronic muscle tightness.",
-    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=85",
+    image: PACKAGE_IMAGES.recovery,
     includes: [
       "Deep Tissue Focused Therapy",
       "Heated Basalt Stone Integration",
@@ -55,7 +54,7 @@ export const PACKAGES = [
     title: "Express Mind & Body Reset",
     badge: "Convenient Reset",
     description: "A refined, time-efficient therapy designed to fit seamlessly into busy days, focusing precisely on neck, shoulder, and back tension.",
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=85",
+    image: PACKAGE_IMAGES.express,
     includes: [
       "Targeted Upper Body Therapy",
       "Aromatic Scalp Pressure Release",
@@ -67,3 +66,4 @@ export const PACKAGES = [
     idealFor: "Quick midday resets and busy neighborhood schedules"
   }
 ];
+

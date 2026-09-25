@@ -8,7 +8,7 @@ export const FAQS = [
   },
   {
     question: "Where is Lotus Spa located?",
-    answer: "Lotus Spa is located at No. 1, Lunkad Classic, Row House, near Kailash Super Market, Viman Nagar, Pune, Maharashtra – 411014. We are conveniently situated in the heart of Viman Nagar with easy neighborhood access."
+    answer: "Lotus Spa is located at Clover Park, Viman Nagar, Pune, Maharashtra 411014. We are conveniently situated in the heart of Viman Nagar with easy neighborhood access."
   },
   {
     question: "Do I need an appointment in advance?",

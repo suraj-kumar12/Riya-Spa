@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
     {
       icon: MapPin,
       title: "Prime Viman Nagar Location",
-      description: "Centrally positioned in Viman Nagar near Kailash Super Market with effortless local access."
+      description: "Centrally positioned in Clover Park, Viman Nagar with effortless local access."
     },
     {
       icon: CalendarCheck,

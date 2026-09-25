@@ -14,7 +14,7 @@ export default function ContactPage({ onOpenBooking }) {
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            Find us at Lunkad Classic, Viman Nagar, Pune. Call our reception or submit an online booking inquiry.
+            Find us at Clover Park, Viman Nagar, Pune. Call our reception or submit an online booking inquiry.
           </p>
         </div>
       </div>

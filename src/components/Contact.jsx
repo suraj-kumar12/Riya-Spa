@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
 import { SERVICES } from '../data/servicesData';
+import { LOGO_IMAGE } from '../data/images';
 
 export default function Contact({ onOpenBooking }) {
   const [formData, setFormData] = useState({
@@ -72,7 +73,7 @@ export default function Contact({ onOpenBooking }) {
             {/* Business Card Box */}
             <div className="bg-white border border-[#E8E2D9] p-8 space-y-6 shadow-2xs rounded-sm">
               <div className="flex items-center space-x-4">
-                <img src="/logo.jpg" alt="Lotus Spa Logo" className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9] p-0.5 bg-white shadow-2xs" />
+                <img src={LOGO_IMAGE} alt="Lotus Spa Logo" className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9] p-0.5 bg-white shadow-2xs" />
                 <div>
                   <span className="text-[10px] tracking-[0.25em] uppercase text-[#C5A059] font-medium">Boutique Spa Sanctuary</span>
                   <h3 className="font-serif text-2xl sm:text-3xl font-normal text-[#2C2724] mt-0.5">
@@ -170,15 +171,15 @@ export default function Contact({ onOpenBooking }) {
               <div className="relative aspect-[16/9] w-full bg-[#F4F0EA] rounded-2xs overflow-hidden">
                 <iframe
                   title="Lotus Spa Viman Nagar Pune Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.261234857218!2d73.91185487501435!3d18.56790408253683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c14041d8e135%3A0xe67dbad970d2460!2sViman%20Nagar%2C%20Pune%2C%20Maharashtra%20411014!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  src={BUSINESS_INFO.mapEmbedUrl}
                   className="w-full h-full border-0"
                   allowFullScreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                  referrerPolicy="strict-origin-when-cross-origin"
                 />
               </div>
               <div className="p-3 text-center text-[11px] text-[#8C7A6B]">
-                <span>Near Kailash Super Market, Viman Nagar, Pune – 411014</span>
+                <span>Clover Park, Viman Nagar, Pune, Maharashtra 411014</span>
               </div>
             </div>
 

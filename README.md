@@ -6,7 +6,7 @@ A modern, minimal, and sophisticated website for **Lotus Spa**, located in Viman
 
 - **Business Name:** Lotus Spa
 - **Mobile Number:** +91 80926 31411 (8092631411)
-- **Address:** No. 1, Lunkad Classic, Row House, near Kailash Super Market, Viman Nagar, Pune, Maharashtra – 411014
+- **Address:** Clover Park, Viman Nagar, Pune, Maharashtra 411014
 - **Aesthetic:** Minimalist, luxury wellness, restrained palette (white, off-white, warm beige, charcoal, soft grey).
 
 ## Features

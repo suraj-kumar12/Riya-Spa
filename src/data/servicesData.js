@@ -1,5 +1,4 @@
-// Reusable Services Data for Lotus Spa
-// Formatted with distinct high-resolution luxury spa photography
+import { SERVICE_IMAGES } from './images';
 
 export const SERVICES = [
   {
@@ -9,7 +8,7 @@ export const SERVICES = [
     description: "A gentle yet invigorating full-body treatment utilizing long, flowing strokes, rhythmic kneading, and light friction to relieve muscle tension, enhance blood circulation, and instill deep physical tranquility.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.swedish,
     features: [
       "Gentle to moderate pressure",
       "Stimulates natural lymphatic flow",
@@ -25,7 +24,7 @@ export const SERVICES = [
     description: "Designed to release chronic muscle tightness and postural strain. Our skilled therapists apply deliberate, sustained friction and firm pressure along deeper layers of muscle tissue and fascia.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.deepTissue,
     features: [
       "Firm, therapeutic deep-layer pressure",
       "Releases structural back and shoulder knots",
@@ -41,7 +40,7 @@ export const SERVICES = [
     description: "A harmonious therapeutic massage combining customized essential botanical extracts with rhythmic, soothing touch. Selected plant essences work in synergy to calm sensory stress and awaken inner equilibrium.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.aromatherapy,
     features: [
       "Pure organic botanical essential oils",
       "Delicate, rhythmic sensory strokes",
@@ -57,7 +56,7 @@ export const SERVICES = [
     description: "Rooted in timeless Indonesian wellness traditions, this therapy blends gentle acupressure, muscle rolling, palm pressing, and mild passive stretching to awaken vitality and release deep musculoskeletal blockage.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.balinese,
     features: [
       "Acupressure & rhythmic palm movements",
       "Gentle meridian energy balance",
@@ -73,7 +72,7 @@ export const SERVICES = [
     description: "Polished natural basalt river stones are gently warmed and placed along key energy centers of the body. The therapist glides smooth stones with soothing strokes to melt away tight muscle fibers effortlessly.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.hotStone,
     features: [
       "Natural heated basalt stones",
       "Deep penetrating thermodynamic relief",
@@ -89,7 +88,7 @@ export const SERVICES = [
     description: "Share a peaceful retreat side-by-side in our private dual therapy room. Both guests enjoy individually personalized massage treatments in an atmosphere of soft ambient candlelight and aromatic calm.",
     duration: "90 / 120 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.couples,
     features: [
       "Private couples treatment suite",
       "Individually customized pressure & oils",
@@ -105,7 +104,7 @@ export const SERVICES = [
     description: "An enriching full-body skin treatment utilizing finely milled botanical exfoliants to sweep away dead skin cells, refine texture, and nourish dull skin, followed by a deeply hydrating organic body balm.",
     duration: "45 / 60 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1512290900672-1f02a64c483a?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.bodyScrub,
     features: [
       "Botanical mineral-rich exfoliating blend",
       "Softens skin texture and enhances glow",
@@ -121,7 +120,7 @@ export const SERVICES = [
     description: "A restorative head-to-toe therapy designed specifically for sensory de-escalation. Slow, featherlight rhythmic strokes across the scalp, back, and extremities quiet a racing mind and reset personal wellbeing.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=85",
+    image: SERVICE_IMAGES.relaxation,
     features: [
       "Ultra-gentle cadence and light pressure",
       "Dedicated scalp and temple relaxation",
@@ -131,3 +130,4 @@ export const SERVICES = [
     idealFor: "Overworked professionals, burnout recovery, and restorative downtime."
   }
 ];
+

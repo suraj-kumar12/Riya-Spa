@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Calendar, ArrowUp } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { LOGO_IMAGE } from '../data/images';
 
 export default function Footer({ onOpenBooking }) {
   const scrollToTop = () => {
@@ -28,7 +29,7 @@ export default function Footer({ onOpenBooking }) {
           <div className="md:col-span-5 space-y-4">
             <Link to="/" className="flex items-center space-x-3 group">
               <img
-                src="/logo.jpg"
+                src={LOGO_IMAGE}
                 alt="Lotus Spa Logo"
                 className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9] p-0.5 bg-white shadow-xs group-hover:scale-105 transition-transform duration-300"
               />

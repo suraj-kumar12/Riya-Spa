@@ -1,5 +1,6 @@
 import { Feather, HeartHandshake, ShieldCheck, Sparkles } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { ABOUT_IMAGES } from '../data/images';
 
 export default function About() {
   const pillars = [
@@ -39,7 +40,7 @@ export default function About() {
           </h2>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
           <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
-            Located at Lunkad Classic, Viman Nagar, Pune, Lotus Spa provides a sanctuary devoted to total physical renewal, mental stillness, and tailored massotherapy.
+            Located at Clover Park, Viman Nagar, Pune, Lotus Spa provides a sanctuary devoted to total physical renewal, mental stillness, and tailored massotherapy.
           </p>
         </div>
 
@@ -71,7 +72,7 @@ export default function About() {
             <div className="space-y-3">
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=85"
+                  src={ABOUT_IMAGES.treatmentSuite}
                   alt="Lotus Spa serene treatment room in Viman Nagar"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"
@@ -85,7 +86,7 @@ export default function About() {
             <div className="space-y-3 pt-6 sm:pt-10">
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=85"
+                  src={ABOUT_IMAGES.essentialOils}
                   alt="Lotus Spa essential oils and botanical blends"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"

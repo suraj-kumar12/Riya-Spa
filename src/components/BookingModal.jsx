@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { X, Calendar, CheckCircle2, Phone } from 'lucide-react';
 import { SERVICES } from '../data/servicesData';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { LOGO_IMAGE } from '../data/images';
 
 export default function BookingModal({ isOpen, onClose, initialService = null }) {
   const initialServiceName = initialService
@@ -108,14 +109,14 @@ export default function BookingModal({ isOpen, onClose, initialService = null })
         ) : (
           <div>
             <div className="mb-6 flex items-center space-x-3 pb-4 border-b border-[#E8E2D9]">
-              <img src="/logo.jpg" alt="Lotus Spa Logo" className="h-11 w-auto rounded-full border border-[#E8E2D9]" />
+              <img src={LOGO_IMAGE} alt="Lotus Spa Logo" className="h-11 w-auto rounded-full border border-[#E8E2D9]" />
               <div>
                 <span className="text-[10px] tracking-[0.25em] uppercase text-[#C5A059] font-medium">Lotus Spa Reservations</span>
                 <h2 id="booking-modal-title" className="font-serif text-2xl font-normal text-[#2C2724]">
                   Reserve Your Appointment
                 </h2>
                 <p className="text-[11px] text-[#8C7A6B]">
-                  Lunkad Classic, Viman Nagar, Pune
+                  Clover Park, Viman Nagar, Pune
                 </p>
               </div>
             </div>
@@ -269,7 +270,7 @@ export default function BookingModal({ isOpen, onClose, initialService = null })
               )}
 
               <div className="text-[10px] text-[#8C7A6B] text-center pt-2 border-t border-[#F0EBE1]">
-                Lotus Spa • No. 1, Lunkad Classic, Viman Nagar, Pune
+                Lotus Spa • Clover Park, Viman Nagar, Pune
               </div>
             </form>
           </div>

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, Calendar, Phone } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { LOGO_IMAGE } from '../data/images';
 
 export default function Navbar({ onOpenBooking }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +50,7 @@ export default function Navbar({ onOpenBooking }) {
             aria-label="Lotus Spa Homepage"
           >
             <img
-              src="/logo.jpg"
+              src={LOGO_IMAGE}
               alt="Lotus Spa Logo"
               className="h-10 sm:h-12 w-auto object-contain rounded-full border border-[#E8E2D9] p-0.5 bg-white shadow-xs group-hover:scale-105 transition-transform duration-300"
             />
@@ -146,7 +147,7 @@ export default function Navbar({ onOpenBooking }) {
       {mobileMenuOpen && (
         <div className="lg:hidden border-b border-[#E8E2D9] bg-[#FAF8F5] px-6 pt-4 pb-8 shadow-xl animate-in slide-in-from-top-2 duration-200">
           <div className="flex items-center space-x-3 mb-4 pb-3 border-b border-[#E8E2D9]">
-            <img src="/logo.jpg" alt="Lotus Spa" className="h-10 w-auto rounded-full border border-[#E8E2D9]" />
+            <img src={LOGO_IMAGE} alt="Lotus Spa" className="h-10 w-auto rounded-full border border-[#E8E2D9]" />
             <div>
               <p className="font-serif text-lg text-[#2C2724] font-medium uppercase tracking-wider">{BUSINESS_INFO.name}</p>
               <p className="text-[10px] text-[#8C7A6B] uppercase tracking-widest">A Luxury Escape in Viman Nagar</p>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Calendar, CheckCircle2, Phone, Clock, MapPin } from 'lucide-react';
 import { SERVICES } from '../data/servicesData';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { LOGO_IMAGE } from '../data/images';
 
 export default function BookingPage() {
   const [formData, setFormData] = useState({
@@ -47,10 +48,10 @@ export default function BookingPage() {
         <div className="bg-white border border-[#E8E2D9] p-8 sm:p-12 shadow-sm rounded-sm">
           
           <div className="flex items-center space-x-4 pb-6 mb-8 border-b border-[#E8E2D9]">
-            <img src="/logo.jpg" alt="Lotus Spa Logo" className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9]" />
+            <img src={LOGO_IMAGE} alt="Lotus Spa Logo" className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9]" />
             <div>
               <p className="font-serif text-xl text-[#2C2724] font-medium">Lotus Spa • Viman Nagar</p>
-              <p className="text-xs text-[#8C7A6B]">No. 1, Lunkad Classic, near Kailash Super Market, Pune</p>
+              <p className="text-xs text-[#8C7A6B]">Clover Park, Viman Nagar, Pune, Maharashtra 411014</p>
             </div>
           </div>
 

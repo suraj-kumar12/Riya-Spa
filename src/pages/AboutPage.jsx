@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Calendar, Feather, ShieldCheck, HeartHandshake, Sparkles, MapPin, Phone } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { ABOUT_IMAGES } from '../data/images';
 import WhyChooseUs from '../components/WhyChooseUs';
 
 export default function AboutPage({ onOpenBooking }) {
@@ -40,7 +41,7 @@ export default function AboutPage({ onOpenBooking }) {
               Lotus Spa was founded with a clear intention: to build an oasis where guests can disengage from daily rush, reset sensory fatigue, and experience pure musculoskeletal restoration.
             </p>
             <p>
-              Located in the heart of Viman Nagar near Kailash Super Market, our sanctuary features private single and couple treatment suites designed with soft ambient lighting, crisp organic linens, and natural stone finishes.
+              Located in Clover Park, Viman Nagar, Pune, our sanctuary features private single and couple treatment suites designed with soft ambient lighting, crisp organic linens, and natural stone finishes.
             </p>
             
             <div className="p-6 border-l-3 border-[#C5A059] bg-white text-base italic font-serif text-[#2C2724] shadow-2xs rounded-r-sm">
@@ -52,7 +53,7 @@ export default function AboutPage({ onOpenBooking }) {
             <div className="space-y-4">
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[4/5] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=85"
+                  src={ABOUT_IMAGES.welcomeLounge}
                   alt="Lotus Spa Welcome Lounge"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
@@ -63,7 +64,7 @@ export default function AboutPage({ onOpenBooking }) {
             <div className="space-y-4 pt-8">
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[4/5] shadow-sm rounded-sm group">
                 <img
-                  src="https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=800&q=85"
+                  src={ABOUT_IMAGES.couplesSanctuary}
                   alt="Lotus Spa Couples Suite"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />

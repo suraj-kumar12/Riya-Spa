@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Sparkles, Award } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/businessInfo';
+import { HERO_IMAGES, LOGO_IMAGE } from '../data/images';
 
 export default function Hero({ onOpenBooking }) {
   return (
@@ -73,7 +74,7 @@ export default function Hero({ onOpenBooking }) {
               <div className="relative border border-[#E8E2D9] p-2.5 bg-white shadow-md rounded-sm">
                 <div className="relative aspect-[4/5] overflow-hidden rounded-xs bg-[#F4F0EA]">
                   <img
-                    src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=85"
+                    src={HERO_IMAGES.main}
                     alt="Lotus Spa luxury massage therapy session"
                     className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                     loading="eager"
@@ -90,11 +91,11 @@ export default function Hero({ onOpenBooking }) {
 
               {/* Offset Floating Badge */}
               <div className="hidden sm:flex items-center space-x-3 absolute -bottom-6 -left-6 bg-white border border-[#E8E2D9] p-4 shadow-lg max-w-xs rounded-sm">
-                <img src="/logo.jpg" alt="Lotus Spa Logo" className="h-11 w-11 rounded-full border border-[#E8E2D9] object-contain" />
+                <img src={LOGO_IMAGE} alt="Lotus Spa Logo" className="h-11 w-11 rounded-full border border-[#E8E2D9] object-contain" />
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-[#C5A059] font-medium">Lotus Spa</p>
                   <p className="text-xs text-[#2C2724] font-serif leading-snug">
-                    Lunkad Classic, Row House 1, Viman Nagar
+                    Clover Park, Viman Nagar, Pune
                   </p>
                 </div>
               </div>
