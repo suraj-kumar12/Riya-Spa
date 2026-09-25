@@ -1,7 +1,8 @@
-# robots.txt for Lotus Spa (https://lotusspa-pune.com/)
-
+# robots.txt for Lotus Spa (https://www.lotusspa.shop/)
 User-agent: *
 Allow: /
+
+# Disallow private asset directories if needed
 Disallow: /api/
 
-Sitemap: https://lotusspa-pune.com/sitemap.xml
+Sitemap: https://www.lotusspa.shop/sitemap.xml

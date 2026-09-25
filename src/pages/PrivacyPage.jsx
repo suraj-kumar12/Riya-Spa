@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <div className="space-y-3">
             <h2 className="font-serif text-2xl text-[#2C2724] font-normal">1. Commitment to Guest Confidentiality</h2>
             <p>
-              At Lotus Spa, accessible from lotusspa-pune.com, one of our main priorities is the privacy of our guests. This Privacy Policy document contains types of information that is collected and recorded by Lotus Spa and how we use it.
+              At Lotus Spa, accessible from www.lotusspa.shop, one of our main priorities is the privacy of our guests. This Privacy Policy document contains types of information that is collected and recorded by Lotus Spa and how we use it.
             </p>
           </div>
 

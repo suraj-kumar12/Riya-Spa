@@ -2,8 +2,20 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/public/logo.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SPA Static Hosting 404 Fallback Decoder -->
+    <script>
+      (function() {
+        var redirect = window.location.search.match(/[\?&]p=([^&]*)/);
+        if (redirect) {
+          var path = decodeURIComponent(redirect[1]);
+          window.history.replaceState(null, null, path);
+        }
+      })();
+    </script>
 
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="GOOGLE_SEARCH_CONSOLE_VERIFICATION_TOKEN" />
@@ -35,7 +47,7 @@
     />
     <meta name="author" content="Lotus Spa" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://lotusspa-pune.com/" />
+    <link rel="canonical" href="https://www.lotusspa.shop/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="business.business" />
@@ -89,7 +101,7 @@
           "latitude": 18.567855,
           "longitude": 73.914364
         },
-        "url": "https://lotusspa-pune.com/",
+        "url": "https://www.lotusspa.shop/",
         "telephone": "+91-8092631411",
         "priceRange": "$$",
         "paymentAccepted": "Cash, UPI, Credit Card, Debit Card",

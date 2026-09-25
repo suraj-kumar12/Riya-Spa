@@ -4,7 +4,7 @@ import { BUSINESS_INFO } from '../data/businessInfo';
 import { FAQS } from '../data/faqData';
 import { SERVICES } from '../data/servicesData';
 
-const BASE_URL = 'https://lotusspa-pune.com';
+const BASE_URL = 'https://www.lotusspa.shop';
 const DEFAULT_IMAGE = `${BASE_URL}/logo.jpg`;
 
 const SEO_ROUTES = {
