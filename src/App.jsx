@@ -1,9 +1,11 @@
 import { useState } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
 import ScrollToTop from './components/ScrollToTop';
+import SEOManager from './components/SEOManager';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -15,6 +17,7 @@ import ContactPage from './pages/ContactPage';
 import BookingPage from './pages/BookingPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   const [bookingModalOpen, setBookingModalOpen] = useState(false);
@@ -27,6 +30,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF8F5] text-[#2C2724] flex flex-col font-sans selection:bg-[#C5A059] selection:text-white overflow-x-hidden">
+      {/* Dynamic Route Meta & Schema Manager */}
+      <SEOManager />
+
       {/* Scroll to Top helper on route navigation */}
       <ScrollToTop />
 
@@ -60,8 +66,11 @@ export default function App() {
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/terms" element={<TermsPage />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<NotFoundPage onOpenBooking={handleOpenBooking} />} />
       </Routes>
+
+      {/* Floating Action Buttons */}
+      <WhatsAppButton />
 
       {/* Footer */}
       <Footer onOpenBooking={() => handleOpenBooking()} />
@@ -78,3 +87,4 @@ export default function App() {
     </div>
   );
 }
+

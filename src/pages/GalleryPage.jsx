@@ -10,11 +10,11 @@ export default function GalleryPage() {
             Visual Exploration
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2C2724] font-normal tracking-tight">
-            Spa Sanctuary Gallery
+            Visual Tour of Our Luxury Spa in Viman Nagar Pune | Lotus Spa Gallery
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            Take a visual tour through our private therapy suites, welcome lounge, hydrotherapy elements, and natural essential oils.
+            Take a visual tour through our private suites for full body massage in Pune, couple spa Pune rooms, welcome lounge, and hydrotherapy elements in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
       </div>

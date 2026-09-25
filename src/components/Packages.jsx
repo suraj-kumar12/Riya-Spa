@@ -12,11 +12,11 @@ export default function Packages({ onOpenBooking }) {
             Curated Wellness Journeys
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
-            Wellness Rituals & Packages
+            Packages for Couple Spa Pune & Full Body Massage
           </h2>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
           <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
-            Thoughtfully combined multi-treatment journeys crafted for prolonged physical rejuvenation and sensory harmony.
+            Experience multi-treatment packages combining full body massage in Pune, specialized couple spa Pune rituals, and restorative skincare at our luxury spa in Viman Nagar Pune.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ export default function Packages({ onOpenBooking }) {
                 <div className="relative aspect-[16/10] overflow-hidden bg-[#F4F0EA]">
                   <img
                     src={pkg.image}
-                    alt={pkg.title}
+                    alt={`${pkg.title} - Luxury Spa in Viman Nagar Pune package`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                   />

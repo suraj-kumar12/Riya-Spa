@@ -2,7 +2,7 @@
 export const BUSINESS_INFO = {
   name: "Lotus Spa",
   tagline: "A Refined Escape for Mind & Body",
-  shortDescription: "Experience a calm, rejuvenating spa experience at Lotus Spa in Clover Park, Viman Nagar, Pune.",
+  shortDescription: "Experience premier full body massage in Pune, couple spa Pune packages, and holistic wellness at Lotus Spa, a top luxury spa in Viman Nagar Pune located in Clover Park, Viman Nagar, Pune, Maharashtra 411014.",
   
   // Official Address
   address: {

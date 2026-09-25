@@ -10,11 +10,11 @@ export default function FAQPage() {
             Help & Spa Guidelines
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2C2724] font-normal tracking-tight">
-            Frequently Asked Questions
+            Frequently Asked Questions | Luxury Spa in Viman Nagar Pune
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            Everything you need to know about arrival times, therapy customization, booking policies, and spa etiquette.
+            Find answers about full body massage in Pune, couple spa Pune packages, booking guidelines, and arrival times at Lotus Spa in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
       </div>

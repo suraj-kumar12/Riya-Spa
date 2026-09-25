@@ -21,14 +21,14 @@ export default function Services({ onSelectServiceForBooking }) {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-16">
           <p className="text-[11px] tracking-[0.25em] uppercase text-[#78716c] font-medium">
-            Therapies & Treatments
+            Therapies & Wellness Rituals
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#1c1917] tracking-tight">
-            Curated Spa Services
+            Luxury Spa in Viman Nagar Pune & Massages
           </h2>
           <div className="w-12 h-px bg-[#78716c] mx-auto mt-4" />
           <p className="text-base text-[#57534e] font-light leading-relaxed pt-2">
-            Each treatment at Lotus Spa is administered with dedicated attention to your comfort, using natural botanicals and time-honored wellness techniques.
+            Experience the finest full body massage in Pune and tranquil couple spa Pune rituals at Lotus Spa, located in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
 

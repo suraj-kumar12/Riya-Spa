@@ -10,11 +10,11 @@ export default function PackagesPage({ onOpenBooking }) {
             Multi-Treatment Journeys
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2C2724] font-normal tracking-tight">
-            Wellness Rituals & Packages
+            Couple Spa Pune & Full Body Massage Packages | Luxury Spa in Viman Nagar Pune
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            Curated combinations of organic scrubs, massotherapy, hot stone rituals, and herbal tea therapy in Viman Nagar, Pune.
+            Curated combinations of full body massage in Pune, couple spa Pune sessions, and botanical scrubs at Lotus Spa in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
       </div>

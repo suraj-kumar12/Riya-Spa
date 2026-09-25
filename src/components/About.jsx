@@ -36,11 +36,11 @@ export default function About() {
             Discover Lotus Spa
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
-            A Sanctuary of Quiet in Viman Nagar
+            A Premier Luxury Spa in Viman Nagar Pune
           </h2>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
           <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
-            Located at Clover Park, Viman Nagar, Pune, Lotus Spa provides a sanctuary devoted to total physical renewal, mental stillness, and tailored massotherapy.
+            Located at Clover Park, Viman Nagar, Pune, Maharashtra 411014, Lotus Spa provides a sanctuary devoted to total physical renewal, mental stillness, and tailored massotherapy.
           </p>
         </div>
 
@@ -49,17 +49,17 @@ export default function About() {
           
           <div className="lg:col-span-6 space-y-6 text-[#6E675F] font-light leading-relaxed">
             <h3 className="font-serif text-2xl text-[#2C2724] font-normal leading-snug">
-              Mindful Care for Your Physical & Mental Well-being
+              Mindful Care & Full Body Massage in Pune
             </h3>
             <p>
-              At Lotus Spa, every treatment is rooted in the belief that authentic rejuvenation begins in an unhurried, serene setting where your comfort is paramount.
+              At Lotus Spa, every treatment is rooted in the belief that authentic rejuvenation begins in an unhurried, serene setting where your personal comfort is paramount.
             </p>
             <p>
-              Whether you are looking to release stubborn shoulder knots from long desk hours, experience a shared couple wellness session, or indulge in botanical hydrotherapy, our certified therapists ensure every touch is attentive and restorative.
+              Whether you are looking to release stubborn muscle tightness with a therapeutic full body massage in Pune, experience a romantic couple spa Pune session, or indulge in botanical hydrotherapy, our certified therapists ensure every touch is attentive and restorative.
             </p>
             
             <div className="p-6 border-l-3 border-[#C5A059] bg-white text-base italic font-serif text-[#2C2724] shadow-2xs rounded-r-sm">
-              &ldquo;Relax, Rejuvenate, Renew — Experience total tranquility at Lotus Spa in Viman Nagar, Pune.&rdquo;
+              &ldquo;Relax, Rejuvenate, Renew — Experience total tranquility at our luxury spa in Viman Nagar Pune.&rdquo;
             </div>
 
             <p className="text-xs text-[#8C7A6B]">
@@ -73,7 +73,7 @@ export default function About() {
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
                   src={ABOUT_IMAGES.treatmentSuite}
-                  alt="Lotus Spa serene treatment room in Viman Nagar"
+                  alt="Lotus Spa serene treatment suite for full body massage in Pune"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"
                 />
@@ -87,7 +87,7 @@ export default function About() {
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[3/4] shadow-sm rounded-sm group">
                 <img
                   src={ABOUT_IMAGES.essentialOils}
-                  alt="Lotus Spa essential oils and botanical blends"
+                  alt="Organic essential botanical oils at Lotus Spa in Clover Park Viman Nagar Pune"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                   loading="lazy"
                 />

@@ -1,0 +1,7 @@
+# robots.txt for Lotus Spa (https://lotusspa-pune.com/)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://lotusspa-pune.com/sitemap.xml

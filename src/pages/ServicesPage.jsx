@@ -38,11 +38,11 @@ export default function ServicesPage({ onSelectServiceForBooking }) {
             Bespoke Treatments & Massotherapy
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2C2724] font-normal tracking-tight">
-            Spa Services & Therapies
+            Full Body Massage Pune & Services | Luxury Spa in Viman Nagar Pune
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            Explore our curated menu of traditional Indonesian, Swedish, deep muscle recovery, and organic botanical rituals in Viman Nagar, Pune.
+            Explore our curated menu of full body massage in Pune, specialized couple spa Pune rituals, and organic botanical treatments at Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
       </div>

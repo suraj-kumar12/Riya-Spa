@@ -4,8 +4,8 @@ export const SERVICES = [
   {
     id: "swedish-massage",
     name: "Swedish Massage",
-    tagline: "Classic restorative technique for whole-body circulation",
-    description: "A gentle yet invigorating full-body treatment utilizing long, flowing strokes, rhythmic kneading, and light friction to relieve muscle tension, enhance blood circulation, and instill deep physical tranquility.",
+    tagline: "Classic restorative full body massage Pune technique for complete circulation",
+    description: "A gentle yet invigorating full body massage in Pune utilizing long, flowing strokes, rhythmic kneading, and light friction to relieve muscle tension, enhance blood circulation, and instill deep tranquility at our spa in Viman Nagar Pune.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.swedish,
@@ -15,13 +15,13 @@ export const SERVICES = [
       "Improves joint flexibility and ease",
       "Tailored essential oil application"
     ],
-    idealFor: "First-time spa guests, daily fatigue relief, and gentle physical restoration."
+    idealFor: "First-time spa guests, daily fatigue relief, and a gentle full body massage in Pune."
   },
   {
     id: "deep-tissue-massage",
     name: "Deep Tissue Massage",
-    tagline: "Focused muscle work targeting deep-seated tension",
-    description: "Designed to release chronic muscle tightness and postural strain. Our skilled therapists apply deliberate, sustained friction and firm pressure along deeper layers of muscle tissue and fascia.",
+    tagline: "Targeted muscle restoration at our luxury spa in Viman Nagar Pune",
+    description: "Designed to release chronic muscle tightness and postural strain. Our skilled therapists deliver a therapeutic full body massage in Pune applying deliberate, sustained friction along deeper layers of muscle tissue and fascia.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.deepTissue,
@@ -31,13 +31,13 @@ export const SERVICES = [
       "Reduces physical stress from desk postures",
       "Enhances range of motion"
     ],
-    idealFor: "Guests experiencing persistent neck, shoulder, or lower back tension."
+    idealFor: "Guests seeking intensive muscle relief at a premier luxury spa in Viman Nagar Pune."
   },
   {
     id: "aromatherapy",
     name: "Aromatherapy Massage",
-    tagline: "Sensory botanical oils for emotional equilibrium",
-    description: "A harmonious therapeutic massage combining customized essential botanical extracts with rhythmic, soothing touch. Selected plant essences work in synergy to calm sensory stress and awaken inner equilibrium.",
+    tagline: "Sensory botanical oils for emotional & physical equilibrium",
+    description: "A harmonious therapeutic massage combining customized essential botanical extracts with rhythmic, soothing touch. A popular choice at our spa in Viman Nagar Pune to calm sensory stress and awaken inner balance.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.aromatherapy,
@@ -47,13 +47,13 @@ export const SERVICES = [
       "Eases mental exhaustion & sensory fatigue",
       "Promotes tranquil sleep patterns"
     ],
-    idealFor: "Stress alleviation, calming anxious thoughts, and sensorial unwinding."
+    idealFor: "Stress alleviation, sensory unwinding, and peaceful relaxation in Clover Park, Viman Nagar."
   },
   {
     id: "balinese-massage",
     name: "Balinese Massage",
-    tagline: "Traditional Indonesian acupressure and gentle stretching",
-    description: "Rooted in timeless Indonesian wellness traditions, this therapy blends gentle acupressure, muscle rolling, palm pressing, and mild passive stretching to awaken vitality and release deep musculoskeletal blockage.",
+    tagline: "Traditional Indonesian acupressure and gentle passive stretching",
+    description: "Rooted in timeless Indonesian wellness traditions, this therapy blends gentle acupressure, muscle rolling, and mild passive stretching. Experience a invigorating full body massage in Pune designed for deep musculoskeletal renewal.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.balinese,
@@ -63,13 +63,13 @@ export const SERVICES = [
       "Warm therapeutic herbal oil infusion",
       "Holistic body restoration"
     ],
-    idealFor: "Total body fatigue, sluggish circulation, and deep holistic rejuvenation."
+    idealFor: "Total body fatigue, sluggish circulation, and deep renewal at our luxury spa in Viman Nagar Pune."
   },
   {
     id: "hot-stone-massage",
     name: "Hot Stone Therapy",
-    tagline: "Warm volcanic basalt stones delivering penetrating heat",
-    description: "Polished natural basalt river stones are gently warmed and placed along key energy centers of the body. The therapist glides smooth stones with soothing strokes to melt away tight muscle fibers effortlessly.",
+    tagline: "Warm volcanic basalt stones delivering penetrating thermal relief",
+    description: "Polished natural basalt river stones are gently warmed and placed along key energy centers. The therapist glides smooth stones with soothing strokes for an extraordinary luxury spa in Viman Nagar Pune experience.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.hotStone,
@@ -79,13 +79,13 @@ export const SERVICES = [
       "Calms the sympathetic nervous system",
       "Completely non-invasive tension release"
     ],
-    idealFor: "Cold sensitivity, stiffness, deeply seated stiffness, and restorative relaxation."
+    idealFor: "Deeply seated stiffness, cold sensitivity, and total relaxation at our spa in Viman Nagar Pune."
   },
   {
     id: "couple-spa",
     name: "Couples Spa Ritual",
-    tagline: "A shared sanctuary of mutual peace and pampering",
-    description: "Share a peaceful retreat side-by-side in our private dual therapy room. Both guests enjoy individually personalized massage treatments in an atmosphere of soft ambient candlelight and aromatic calm.",
+    tagline: "Premier couple spa Pune journey in a private luxury suite",
+    description: "Share a peaceful retreat side-by-side in our private dual therapy room. Recognized for providing a serene couple spa in Pune, Lotus Spa crafts personalized treatments surrounded by ambient candlelight.",
     duration: "90 / 120 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.couples,
@@ -95,13 +95,13 @@ export const SERVICES = [
       "Subtle ambient lighting & soothing music",
       "Complimentary herbal tea ritual"
     ],
-    idealFor: "Anniversaries, shared celebrations, and peaceful wellness dates."
+    idealFor: "Anniversaries, shared celebrations, and romantic couple spa in Pune dates."
   },
   {
     id: "body-scrub",
     name: "Organic Botanical Body Scrub",
-    tagline: "Gentle natural exfoliation and skin polish",
-    description: "An enriching full-body skin treatment utilizing finely milled botanical exfoliants to sweep away dead skin cells, refine texture, and nourish dull skin, followed by a deeply hydrating organic body balm.",
+    tagline: "Gentle natural exfoliation and skin polishing treatment",
+    description: "An enriching full-body skin treatment utilizing finely milled botanical exfoliants to sweep away dead skin cells and nourish dull skin, followed by a hydrating organic body balm at our luxury spa in Viman Nagar Pune.",
     duration: "45 / 60 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.bodyScrub,
@@ -111,13 +111,13 @@ export const SERVICES = [
       "Hydrating botanical butter application",
       "Reactivates skin microcirculation"
     ],
-    idealFor: "Skin rejuvenation, gentle exfoliation, and pre-event radiance."
+    idealFor: "Skin rejuvenation, gentle exfoliation, and pre-event radiance at Lotus Spa Viman Nagar."
   },
   {
     id: "relaxation-therapy",
     name: "Pure Serenity Relaxation Ritual",
-    tagline: "Pure tranquility dedicated to slowing down the mind",
-    description: "A restorative head-to-toe therapy designed specifically for sensory de-escalation. Slow, featherlight rhythmic strokes across the scalp, back, and extremities quiet a racing mind and reset personal wellbeing.",
+    tagline: "Uninterrupted tranquility dedicated to slowing down the mind",
+    description: "A restorative head-to-toe therapy designed specifically for sensory de-escalation. Slow, featherlight rhythmic strokes across the scalp and back deliver a calming full body massage in Pune to reset personal wellbeing.",
     duration: "60 / 90 mins",
     price: "Inquire for pricing",
     image: SERVICE_IMAGES.relaxation,
@@ -127,7 +127,7 @@ export const SERVICES = [
       "Nourishing calming balm",
       "Deep meditative breathing guidance"
     ],
-    idealFor: "Overworked professionals, burnout recovery, and restorative downtime."
+    idealFor: "Overworked professionals seeking a quiet retreat at a luxury spa in Viman Nagar Pune."
   }
 ];
 

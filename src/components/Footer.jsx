@@ -30,7 +30,7 @@ export default function Footer({ onOpenBooking }) {
             <Link to="/" className="flex items-center space-x-3 group">
               <img
                 src={LOGO_IMAGE}
-                alt="Lotus Spa Logo"
+                alt="Lotus Spa - Luxury Spa in Viman Nagar Pune"
                 className="h-12 w-auto object-contain rounded-full border border-[#E8E2D9] p-0.5 bg-white shadow-xs group-hover:scale-105 transition-transform duration-300"
               />
               <div>
@@ -38,7 +38,7 @@ export default function Footer({ onOpenBooking }) {
                   {BUSINESS_INFO.name}
                 </span>
                 <p className="text-[10px] tracking-[0.25em] uppercase text-[#8C7A6B] mt-0.5">
-                  Viman Nagar, Pune
+                  Luxury Spa in Viman Nagar Pune
                 </p>
               </div>
             </Link>

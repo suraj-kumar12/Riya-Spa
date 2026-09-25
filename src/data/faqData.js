@@ -8,7 +8,7 @@ export const FAQS = [
   },
   {
     question: "Where is Lotus Spa located?",
-    answer: "Lotus Spa is located at Clover Park, Viman Nagar, Pune, Maharashtra 411014. We are conveniently situated in the heart of Viman Nagar with easy neighborhood access."
+    answer: "Lotus Spa is a premier luxury spa in Viman Nagar Pune located at Clover Park, Viman Nagar, Pune, Maharashtra 411014. We are conveniently situated with easy neighborhood access."
   },
   {
     question: "Do I need an appointment in advance?",
@@ -16,11 +16,11 @@ export const FAQS = [
   },
   {
     question: "What spa treatments are available?",
-    answer: "Our curated menu features traditional and therapeutic wellness therapies including Swedish Massage, Deep Tissue Massage, Aromatherapy, Balinese Massage, Hot Stone Massage, Couple Spa sessions, Body Scrubs, and Relaxation Therapy."
+    answer: "Our curated menu features therapeutic full body massage in Pune techniques including Swedish Massage, Deep Tissue Massage, Aromatherapy, Balinese Massage, Hot Stone Therapy, Couple Spa Pune sessions, Botanical Body Scrubs, and Relaxation Therapy."
   },
   {
     question: "Do you offer couple spa treatments?",
-    answer: "Yes, we feature dedicated Couple Spa sessions in our private dual therapy suite, designed for partners or companions who wish to unwind simultaneously in a quiet, serene environment."
+    answer: "Yes, we feature dedicated couple spa Pune packages in our private dual therapy suite at our luxury spa in Viman Nagar Pune, designed for partners who wish to unwind simultaneously in a serene environment."
   },
   {
     question: "How long does a treatment take?",

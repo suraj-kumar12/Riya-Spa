@@ -57,11 +57,11 @@ export default function Contact({ onOpenBooking }) {
             Visit & Connect
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
-            Connect With Lotus Spa
+            Visit Our Luxury Spa in Viman Nagar Pune
           </h2>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
           <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
-            Located in Viman Nagar, Pune. Send an inquiry or reserve your preferred therapy session.
+            Located in Clover Park, Viman Nagar, Pune, Maharashtra 411014. Send an inquiry or reserve your preferred full body massage in Pune or couple spa Pune session.
           </p>
         </div>
 

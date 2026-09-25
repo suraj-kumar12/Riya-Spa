@@ -18,15 +18,15 @@ export default function Hero({ onOpenBooking }) {
           <div className="lg:col-span-7 space-y-6 sm:space-y-8 text-center lg:text-left">
             <div className="inline-flex items-center space-x-2.5 px-4 py-1.5 border border-[#E8E2D9] bg-white/90 rounded-full text-[11px] tracking-[0.22em] uppercase text-[#8C7A6B] shadow-2xs">
               <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-              <span>Lotus Spa • Sanctuary of Tranquility</span>
+              <span>Lotus Spa • Luxury Spa in Viman Nagar Pune</span>
             </div>
 
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-normal leading-[1.08] text-[#2C2724] tracking-tight">
-              A Refined Escape for <span className="italic font-light text-[#C5A059]">Mind & Body</span>
+              Premier <span className="italic font-light text-[#C5A059]">Luxury Spa in Viman Nagar Pune</span>
             </h1>
 
             <p className="max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg text-[#6E675F] font-light leading-relaxed">
-              Immerse yourself in deeply restorative massotherapy, calming hydrotherapy, and organic botanical rituals crafted to release daily stress at Lotus Spa, Viman Nagar, Pune.
+              Immerse yourself in deeply restorative full body massage in Pune, tranquil couple spa experiences, and organic botanical rituals at Lotus Spa in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
             </p>
 
             {/* Actions */}
@@ -53,7 +53,7 @@ export default function Hero({ onOpenBooking }) {
             <div className="pt-8 border-t border-[#E8E2D9] grid grid-cols-1 sm:grid-cols-3 gap-6 text-left">
               <div className="bg-white/60 p-3.5 border border-[#E8E2D9]/80 rounded-sm">
                 <p className="text-[10px] uppercase tracking-wider text-[#8C7A6B]">Location</p>
-                <p className="text-xs font-semibold text-[#2C2724] mt-0.5">Viman Nagar, Pune</p>
+                <p className="text-xs font-semibold text-[#2C2724] mt-0.5">Clover Park, Viman Nagar</p>
               </div>
               <div className="bg-white/60 p-3.5 border border-[#E8E2D9]/80 rounded-sm">
                 <p className="text-[10px] uppercase tracking-wider text-[#8C7A6B]">Ambience</p>
@@ -75,7 +75,7 @@ export default function Hero({ onOpenBooking }) {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-xs bg-[#F4F0EA]">
                   <img
                     src={HERO_IMAGES.main}
-                    alt="Lotus Spa luxury massage therapy session"
+                    alt="Lotus Spa - Premier luxury spa in Viman Nagar Pune offering full body massage in Pune"
                     className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                     loading="eager"
                   />

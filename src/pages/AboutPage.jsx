@@ -15,11 +15,11 @@ export default function AboutPage({ onOpenBooking }) {
             Our Story & Philosophy
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#2C2724] font-normal tracking-tight">
-            About Lotus Spa
+            About Lotus Spa | Premier Luxury Spa in Viman Nagar Pune
           </h1>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto rounded-full" />
           <p className="max-w-2xl mx-auto text-base text-[#6E675F] font-light leading-relaxed">
-            A sanctuary devoted to holistic health, mindful massotherapy, and unhurried peace in Viman Nagar, Pune.
+            A sanctuary devoted to holistic health, restorative full body massage in Pune, specialized couple spa Pune rituals, and unhurried peace in Clover Park, Viman Nagar, Pune, Maharashtra 411014.
           </p>
         </div>
       </div>
@@ -35,13 +35,13 @@ export default function AboutPage({ onOpenBooking }) {
               <span>Established Sanctuary</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#2C2724] font-normal leading-snug">
-              Creating a Gentle Retreat Away From Urban Stress
+              Creating a Premier Luxury Spa in Viman Nagar Pune Retreat
             </h2>
             <p>
-              Lotus Spa was founded with a clear intention: to build an oasis where guests can disengage from daily rush, reset sensory fatigue, and experience pure musculoskeletal restoration.
+              Lotus Spa was founded with a clear intention: to build an oasis where guests can disengage from daily rush, reset sensory fatigue, and experience pure musculoskeletal restoration with a professional full body massage in Pune.
             </p>
             <p>
-              Located in Clover Park, Viman Nagar, Pune, our sanctuary features private single and couple treatment suites designed with soft ambient lighting, crisp organic linens, and natural stone finishes.
+              Located in Clover Park, Viman Nagar, Pune, Maharashtra 411014, our sanctuary features private single and couple treatment suites designed with soft ambient lighting, crisp organic linens, and natural stone finishes.
             </p>
             
             <div className="p-6 border-l-3 border-[#C5A059] bg-white text-base italic font-serif text-[#2C2724] shadow-2xs rounded-r-sm">
@@ -54,7 +54,7 @@ export default function AboutPage({ onOpenBooking }) {
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[4/5] shadow-sm rounded-sm group">
                 <img
                   src={ABOUT_IMAGES.welcomeLounge}
-                  alt="Lotus Spa Welcome Lounge"
+                  alt="Lotus Spa Welcome Lounge - Luxury Spa in Viman Nagar Pune"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
               </div>
@@ -65,7 +65,7 @@ export default function AboutPage({ onOpenBooking }) {
               <div className="overflow-hidden border border-[#E8E2D9] bg-[#F4F0EA] aspect-[4/5] shadow-sm rounded-sm group">
                 <img
                   src={ABOUT_IMAGES.couplesSanctuary}
-                  alt="Lotus Spa Couples Suite"
+                  alt="Lotus Spa Couples Suite - Premier Couple Spa Pune Sanctuary"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                 />
               </div>

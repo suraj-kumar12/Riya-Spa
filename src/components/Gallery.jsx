@@ -30,11 +30,11 @@ export default function Gallery() {
             Visual Sanctuary
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#2C2724] tracking-tight">
-            Lotus Spa Gallery
+            Gallery of Our Luxury Spa in Viman Nagar Pune
           </h2>
           <div className="w-16 h-0.5 bg-[#C5A059] mx-auto mt-4 rounded-full" />
           <p className="text-base text-[#6E675F] font-light leading-relaxed pt-2">
-            A glimpse into the quiet spaces, mindful rituals, and serene atmosphere at Lotus Spa in Viman Nagar, Pune.
+            A glimpse into private therapy suites for full body massage in Pune, tranquil couple spa Pune rooms, and serene spaces at Lotus Spa in Clover Park, Viman Nagar, Pune.
           </p>
         </div>
 

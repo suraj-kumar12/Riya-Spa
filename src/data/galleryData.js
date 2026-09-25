@@ -14,70 +14,70 @@ export const GALLERY_ITEMS = [
     title: "Lotus Spa Reception & Tranquil Welcome Lounge",
     category: "interior",
     image: GALLERY_IMAGES.reception,
-    alt: "Warm minimalist luxury spa welcome lounge with natural wood, soft linen seating, and serene ambient light"
+    alt: "Warm minimalist luxury spa in Viman Nagar Pune welcome lounge with natural wood and serene ambient light"
   },
   {
     id: 2,
     title: "Private Organic Silk & Linen Therapy Suite",
     category: "treatment-rooms",
     image: GALLERY_IMAGES.treatmentRoom,
-    alt: "Serene private spa treatment room with plush massage couch, warm lighting, and botanical touches"
+    alt: "Serene private therapy suite for full body massage Pune at Lotus Spa"
   },
   {
     id: 3,
     title: "Couples Harmony Sanctuary Suite",
     category: "treatment-rooms",
     image: GALLERY_IMAGES.couplesSuite,
-    alt: "Spacious luxury couples treatment suite with dual therapy couches and soft floral accents"
+    alt: "Spacious suite designed for couple spa Pune rituals with dual therapy couches and floral accents"
   },
   {
     id: 4,
     title: "Therapeutic Volcanic Hot Stone Therapy",
     category: "treatments",
     image: GALLERY_IMAGES.hotStone,
-    alt: "Smooth heated basalt stones placed along the spine during a relaxing hot stone session"
+    alt: "Smooth volcanic hot stone session at our luxury spa in Viman Nagar Pune"
   },
   {
     id: 5,
     title: "Cold-Pressed Essential Botanical Oil Atelier",
     category: "ambience",
     image: GALLERY_IMAGES.essentialOils,
-    alt: "Glass droppers of pure lavender and eucalyptus essential oils with dried herbs on natural stone"
+    alt: "Cold-pressed essential botanical oils for full body massage Pune at Lotus Spa"
   },
   {
     id: 6,
     title: "Deep Restorative Massage Therapy",
     category: "treatments",
     image: GALLERY_IMAGES.massage,
-    alt: "Therapist performing gentle Balinese massage technique with warm aromatic oil"
+    alt: "Certified therapist performing a restorative full body massage in Pune"
   },
   {
     id: 7,
     title: "Post-Treatment Botanical Hydration Nook",
     category: "interior",
     image: GALLERY_IMAGES.postTreatment,
-    alt: "Quiet post-treatment lounge with warm ceramic tea set, fresh orchid blossoms, and soft daylight"
+    alt: "Quiet post-treatment botanical hydration lounge at Lotus Spa Viman Nagar Pune"
   },
   {
     id: 8,
     title: "Floating Lotus & Water Reflection Basin",
     category: "ambience",
     image: GALLERY_IMAGES.waterBasin,
-    alt: "Delicate pink lotus petals and warm candles floating in a stone water vessel"
+    alt: "Floating lotus petals and candles creating sensory ambience at our spa in Viman Nagar Pune"
   },
   {
     id: 9,
     title: "Hydrotherapy & Soaking Tub Suite",
     category: "treatment-rooms",
     image: GALLERY_IMAGES.soakingTub,
-    alt: "Deep wooden soaking bath filled with rose petals and calming herbal bath salts"
+    alt: "Hydrotherapy soaking tub suite at premier luxury spa in Viman Nagar Pune"
   },
   {
     id: 10,
     title: "Organic Facial Radiance Treatment",
     category: "treatments",
     image: GALLERY_IMAGES.facial,
-    alt: "Gentle facial care and botanical serum application for glowing youthful skin"
+    alt: "Organic facial radiance treatment at Lotus Spa in Clover Park Viman Nagar Pune"
   }
 ];
 
