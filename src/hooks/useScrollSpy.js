@@ -4,22 +4,30 @@ export function useScrollSpy(sectionIds, offset = 100) {
   const [activeId, setActiveId] = useState('');
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + offset;
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollPosition = window.scrollY + offset;
 
-      for (let i = sectionIds.length - 1; i >= 0; i--) {
-        const id = sectionIds[i];
-        const element = document.getElementById(id);
-        if (element) {
-          const top = element.offsetTop;
-          if (scrollPosition >= top) {
-            setActiveId(id);
-            return;
+          for (let i = sectionIds.length - 1; i >= 0; i--) {
+            const id = sectionIds[i];
+            const element = document.getElementById(id);
+            if (element) {
+              const top = element.offsetTop;
+              if (scrollPosition >= top) {
+                setActiveId(id);
+                ticking = false;
+                return;
+              }
+            }
           }
-        }
-      }
-      if (window.scrollY < 200) {
-        setActiveId(sectionIds[0] || 'home');
+          if (window.scrollY < 200) {
+            setActiveId(sectionIds[0] || 'home');
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
     };
 
