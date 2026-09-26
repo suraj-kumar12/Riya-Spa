@@ -1,0 +1,106 @@
+{
+  "$schema": "https://ai-catalog.io/schemas/v1/catalog.json",
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Lotus Spa",
+    "identifier": "https://www.lotusspa.shop",
+    "documentationUrl": "https://www.lotusspa.shop/llms.txt",
+    "logoUrl": "https://www.lotusspa.shop/lotus-spa-logo.webp"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:lotusspa.shop:service:homepage",
+      "displayName": "Lotus Spa Main Sanctuary",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/",
+      "description": "Premier luxury spa in Viman Nagar Pune offering full body massage, couple spa packages, and wellness rituals.",
+      "representativeQueries": [
+        "luxury spa in Viman Nagar Pune",
+        "best spa near Clover Park Pune",
+        "massage center in Viman Nagar"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:about",
+      "displayName": "About Lotus Spa",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/about",
+      "description": "Information about Lotus Spa's certified therapists, hygienic private therapy suites, and boutique wellness philosophy in Pune.",
+      "representativeQueries": [
+        "about Lotus Spa Pune",
+        "Lotus Spa Viman Nagar therapists and facilities"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:services",
+      "displayName": "Full Body Massage & Spa Therapies",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/services",
+      "description": "Comprehensive list of massage treatments: Swedish Massage, Deep Tissue Therapy, Balinese Massage, Aromatherapy, Hot Stone Massage, and Botanical Body Scrubs.",
+      "representativeQueries": [
+        "full body massage in Pune",
+        "Swedish massage Viman Nagar",
+        "deep tissue massage rates Pune",
+        "Balinese massage Viman Nagar"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:packages",
+      "displayName": "Couple Spa & Wellness Packages",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/packages",
+      "description": "Curated wellness and couple spa packages combining full body massages, botanical scrubs, and hydrotherapy.",
+      "representativeQueries": [
+        "couple spa Pune",
+        "couple massage package Viman Nagar",
+        "luxury spa packages Pune"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:gallery",
+      "displayName": "Lotus Spa Facility Gallery",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/gallery",
+      "description": "Photos of private therapy rooms, couple suites, welcome lounge, and soothing ambiance at Lotus Spa Pune.",
+      "representativeQueries": [
+        "Lotus Spa Viman Nagar photos",
+        "interior pictures of Lotus Spa Pune"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:faq",
+      "displayName": "Frequently Asked Questions",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/faq",
+      "description": "Answers to common questions regarding spa bookings, therapy durations, preparation, and payment options.",
+      "representativeQueries": [
+        "Lotus Spa opening hours",
+        "Lotus Spa payment methods",
+        "how to book massage at Lotus Spa Pune"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:contact",
+      "displayName": "Contact & Location",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/contact",
+      "description": "Official contact details for Lotus Spa in Clover Park, Viman Nagar, Pune. Phone: +91 80926 31411. Google Maps integration and inquiry form.",
+      "representativeQueries": [
+        "Lotus Spa address Viman Nagar",
+        "Lotus Spa Pune phone number",
+        "directions to Lotus Spa Pune"
+      ]
+    },
+    {
+      "identifier": "urn:air:lotusspa.shop:service:booking",
+      "displayName": "Appointment Booking",
+      "type": "text/html",
+      "url": "https://www.lotusspa.shop/booking",
+      "description": "Online reservation portal to schedule full body massage and couple spa appointments at Lotus Spa.",
+      "representativeQueries": [
+        "book spa appointment Lotus Spa Pune",
+        "reserve massage slot Viman Nagar"
+      ]
+    }
+  ]
+}
