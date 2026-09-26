@@ -5,7 +5,7 @@ import { FAQS } from '../data/faqData';
 import { SERVICES } from '../data/servicesData';
 
 const BASE_URL = 'https://www.lotusspa.shop';
-const DEFAULT_IMAGE = `${BASE_URL}/logo.jpg`;
+const DEFAULT_IMAGE = `${BASE_URL}/lotus-spa-logo.webp`;
 
 const SEO_ROUTES = {
   '/': {
@@ -141,6 +141,8 @@ export default function SEOManager() {
       name: BUSINESS_INFO.name,
       description: BUSINESS_INFO.shortDescription,
       url: BASE_URL,
+      image: DEFAULT_IMAGE,
+      logo: DEFAULT_IMAGE,
       telephone: BUSINESS_INFO.contact.phoneDisplay,
       address: {
         '@type': 'PostalAddress',

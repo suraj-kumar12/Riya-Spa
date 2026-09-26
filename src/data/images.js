@@ -14,7 +14,7 @@ import serenityRelaxationSpa from '../assets/images/serenity-relaxation-spa-post
 import hydrotherapySoakingTub from '../assets/images/hydrotherapy-soaking-tub-suite.webp';
 import organicFacialRadiance from '../assets/images/organic-facial-radiance-skincare-treatment.webp';
 
-export const LOGO_IMAGE = "/logo.jpg";
+export const LOGO_IMAGE = "/lotus-spa-logo.webp";
 
 export const LOCAL_IMAGES = {
   lotusSpaSanctuary,
